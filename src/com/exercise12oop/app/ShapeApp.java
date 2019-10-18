@@ -2,6 +2,7 @@ package com.exercise12oop.app;
 import java.lang.Math;
 
 import com.exercise12oop.model.Circle;
+import com.exercise12oop.model.IsoselesTriangle;
 import com.exercise12oop.model.Square;
 import com.exercise12oop.model.Triangle;
 import java.util.Scanner;
@@ -20,6 +21,9 @@ public class ShapeApp {
 		Square square2= new Square(10.2);
 		Circle circle2= new Circle(5.3);
 		Triangle triangle2= new Triangle(5.4,6.8);
+		IsoselesTriangle triangle =new IsoselesTriangle();
+		
+		
 		
 		Scanner input = new Scanner(System.in);
 		System.out.println("Input the radio of circle: ");

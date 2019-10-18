@@ -1,7 +1,5 @@
 package com.exercise12oop.model;
 
-import com.exercise12oop.app.Shape;
-
 public class Square extends Shape 
 {
 	private double side;

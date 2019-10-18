@@ -1,5 +1,4 @@
 package com.exercise12oop.model;
-import com.exercise12oop.app.Shape;
 import java.lang.Math;
 
 public class Triangle extends Shape
@@ -7,6 +6,9 @@ public class Triangle extends Shape
 	//variables
 	private double base;
 	private double height;
+	public double area;
+	private double perimeter;
+	protected String name;
 	
 	//constructor 
 	public Triangle()
@@ -30,6 +32,13 @@ public class Triangle extends Shape
 		public double CalculatePerimeter(double base, double height)
 		{
 			return Math.sqrt(Math.pow(base, 2)+Math.pow(height, 2));
+		}
+		
+		public double CalculatePerimeter()
+		{
+			this.perimeter= Math.sqrt(Math.pow(this.base, 2)+Math.pow(this.height,2));
+			this.name="Default";
+			return 0;
 		}
 		
 		//getters and setters

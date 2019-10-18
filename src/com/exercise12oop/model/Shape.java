@@ -1,8 +1,6 @@
-package com.exercise12oop.app;
+package com.exercise12oop.model;
 
-import com.exercise12oop.model.Shapeable;
-
-public abstract class Shape implements Shapeable {
+public abstract class Shape implements Shapeable, Lineable {
 
 	public static void main(String[] args) {
 		

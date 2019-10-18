@@ -1,7 +1,5 @@
 package com.exercise12oop.model;
 import java.lang.Math;
-
-import com.exercise12oop.app.Shape;
 public class Circle extends Shape
 {
 	private double radio;
